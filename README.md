@@ -1,6 +1,6 @@
 # Machine Learning
 
-I bought a new course on machine learning with python and will use this repository to store the activities I will do throughout it. I organized it by modules, with subcategories within each one, with self-descriptive titles, and I will periodically upload.
+I bought a new course on machine learning with python and will use this repository to store the activities I'll do throughout it. I organized it by modules, with subcategories within each one, with self-descriptive titles, and I'll update periodically.
 
 ## Course contents:
 - #### Module 1: (In progress)
