@@ -12,3 +12,5 @@ I bought a new course on machine learning with python and will use this reposito
 - #### Module 4: (Incomplete)
   Recurrent Neural Networks (RNNs), LSTMs, Time Series, Natural Language Processing, GANs, Reinforcement Learning, Genetic Algorithms, among others.
 
+
+ Course Link **[here](https://didatica.tech/combo-modulos-i-ii-iii-e-iv/)**
