@@ -5,9 +5,9 @@ I bought a new course on machine learning with python and will use this reposito
 ## Course contents:
 - #### Module 1: (Complete)
   Linear Regression, Logistic Regression, KNN, Naive Bayes and Decision Trees
-- #### Module 2: (In progress)
+- #### Module 2: (Complete)
   Recommender Systems, unsupervised learning and more complex algorithms, which use Ensemble methods, such as Random Forest, ExtraTrees, AdaBoost, Gradient Boosting, Bagging and SVM.
-- #### Module 3: (Incomplete)
+- #### Module 3: (In progress)
   Neural Networks, Deep Learning, CNNs, Parallel Processing, Frameworks, Image Processing and Computer Vision.
 - #### Module 4: (Incomplete)
   Recurrent Neural Networks (RNNs), LSTMs, Time Series, Natural Language Processing, GANs, Reinforcement Learning, Genetic Algorithms, among others.
