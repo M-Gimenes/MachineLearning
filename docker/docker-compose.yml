@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: machine-learning-jupyter
+    ports:
+      - "${JUPYTER_PORT:-8888}:8888"
+    volumes:
+      # Mount the project directory to preserve changes
+      - ..:/app
+      # Optional: Mount a separate volume for Jupyter data
+      - jupyter-data:/root/.jupyter
+    environment:
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:-ml2024}
+      - JUPYTER_ENABLE_LAB=${JUPYTER_ENABLE_LAB:-yes}
+    env_file:
+      - .env
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+
+volumes:
+  jupyter-data:
+

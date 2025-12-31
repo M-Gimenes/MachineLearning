@@ -1,0 +1,6 @@
+# Strip outputs and metadata from Jupyter notebooks
+# Note: nbstripout is automatically configured in Docker container
+# For local development, the filter is disabled to avoid Python PATH issues
+# *.ipynb filter=nbstripout
+.ipynb_checkpoints/*.ipynb !filter
+

@@ -12,5 +12,18 @@ I bought a new course on machine learning with python and will use this reposito
 - #### Module 4: (In progress)
   Recurrent Neural Networks (RNNs), LSTMs, Time Series, Natural Language Processing, GANs, Reinforcement Learning, Genetic Algorithms, among others.
 
+Course Link **[here](https://didatica.tech/combo-modulos-i-ii-iii-e-iv/)**
 
- Course Link **[here](https://didatica.tech/combo-modulos-i-ii-iii-e-iv/)**
+---
+
+## 🐳 Docker
+
+Quick start:
+```bash
+cp docker/env.example docker/.env
+docker-compose -f docker/docker-compose.yml up -d
+```
+
+Access Jupyter Lab at `http://localhost:8888` (token: `ml2024`).
+
+See [docker/README.md](docker/README.md) for details.
