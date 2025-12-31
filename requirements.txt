@@ -10,7 +10,6 @@ tensorflow>=2.13.0
 keras>=2.13.0
 
 # Computer Vision
-opencv-python>=4.8.0
 opencv-contrib-python>=4.8.0
 Pillow>=10.0.0
 

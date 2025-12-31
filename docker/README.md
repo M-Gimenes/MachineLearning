@@ -3,7 +3,6 @@
 ## Quick Start
 
 ```bash
-cp env.example .env
 docker-compose -f docker/docker-compose.yml up -d
 ```
 
@@ -30,7 +29,13 @@ docker exec -it machine-learning-jupyter bash
 
 ## Configuration
 
-Edit `docker/.env` to customize:
+Default values work out of the box. To customize, use environment variables:
+
+```bash
+JUPYTER_TOKEN=my_token JUPYTER_PORT=9999 docker-compose -f docker/docker-compose.yml up -d
+```
+
+Or create `docker/.env` from `docker/env.example` and export variables before running docker-compose:
 - `JUPYTER_TOKEN`: Access token (default: `ml2024`)
 - `JUPYTER_PORT`: Port number (default: `8888`)
 

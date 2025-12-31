@@ -30,7 +30,7 @@ RUN chmod +x /app/docker/scripts/start-jupyter.sh && \
 
 # Set environment variables for Jupyter
 ENV JUPYTER_ENABLE_LAB=yes
-ENV JUPYTER_TOKEN=""
+# JUPYTER_TOKEN is set via docker-compose.yml, not here to allow override
 
 # Run Jupyter Lab
 CMD ["/app/docker/scripts/start-jupyter.sh"]

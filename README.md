@@ -20,9 +20,10 @@ Course Link **[here](https://didatica.tech/combo-modulos-i-ii-iii-e-iv/)**
 
 Quick start:
 ```bash
-cp docker/env.example docker/.env
 docker-compose -f docker/docker-compose.yml up -d
 ```
+
+Optional: Copy `docker/env.example` to `docker/.env` to customize settings.
 
 Access Jupyter Lab at `http://localhost:8888` (token: `ml2024`).
 

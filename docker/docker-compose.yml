@@ -16,8 +16,6 @@ services:
     environment:
       - JUPYTER_TOKEN=${JUPYTER_TOKEN:-ml2024}
       - JUPYTER_ENABLE_LAB=${JUPYTER_ENABLE_LAB:-yes}
-    env_file:
-      - .env
     restart: unless-stopped
     stdin_open: true
     tty: true
