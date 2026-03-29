@@ -1,30 +1,36 @@
-# Machine Learning
+# Machine Learning & Deep Learning (Study Repository) 🤖
 
-I bought a new course on machine learning with python and will use this repository to store the activities I'll do throughout it. I organized it by modules, with subcategories within each one, with self-descriptive titles, and I'll update periodically.
+This repository serves as a centralized storage for activities and projects developed during a comprehensive Machine Learning with Python course. It is organized by modules and updated periodically as I progress through the curriculum.
 
-## Course contents:
-- #### Module 1: (Complete)
-  Linear Regression, Logistic Regression, KNN, Naive Bayes and Decision Trees
-- #### Module 2: (Complete)
-  Recommender Systems, unsupervised learning and more complex algorithms, which use Ensemble methods, such as Random Forest, ExtraTrees, AdaBoost, Gradient Boosting, Bagging and SVM.
-- #### Module 3: (Complete)
-  Neural Networks, Deep Learning, CNNs, Parallel Processing, Frameworks, Image Processing and Computer Vision.
-- #### Module 4: (In progress)
-  Recurrent Neural Networks (RNNs), LSTMs, Time Series, Natural Language Processing, GANs, Reinforcement Learning, Genetic Algorithms, among others.
+## 📌 Project Structure
 
-Course Link **[here](https://didatica.tech/combo-modulos-i-ii-iii-e-iv/)**
+The repository is structured into modules, with self-descriptive subcategories for each algorithm and technique implemented:
 
----
+### ✅ Module 1: Fundamentals (Complete)
+* **Regression:** Linear and Logistic Regression.
+* **Classification:** KNN, Naive Bayes, and Decision Trees.
 
-## 🐳 Docker
+### ✅ Module 2: Advanced Algorithms & Ensembles (Complete)
+* **Unsupervised Learning:** Clustering and Recommender Systems.
+* **Ensemble Methods:** Random Forest, ExtraTrees, AdaBoost, Gradient Boosting, and Bagging.
+* **Support Vector Machines:** Implementation of SVM models.
 
-Quick start:
-```bash
-docker-compose -f docker/docker-compose.yml up -d
-```
+### ✅ Module 3: Computer Vision & Deep Learning (Complete)
+* **Neural Networks:** Multi-layer Perceptrons and Deep Learning fundamentals.
+* **CNNs:** Convolutional Neural Networks for Image Processing.
+* **Architecture:** Frameworks, Parallel Processing, and Computer Vision.
 
-Optional: Copy `docker/env.example` to `docker/.env` to customize settings.
+### ⏳ Module 4: Sequence Models & Generative AI (In Progress)
+* **Time Series:** RNNs and LSTMs.
+* **NLP:** Natural Language Processing techniques.
+* **Generative Models:** GANs (Generative Adversarial Networks).
+* **Reinforcement Learning & Genetic Algorithms.**
 
-Access Jupyter Lab at `http://localhost:8888` (token: `ml2024`).
+## 🐳 Environment Setup (Docker)
 
-See [docker/README.md](docker/README.md) for details.
+To ensure a consistent development environment, the project uses Docker.
+
+### Quick Start:
+1. Run the environment:
+   ```bash
+   docker-compose -f docker/docker-compose.yml up -d
